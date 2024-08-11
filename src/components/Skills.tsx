@@ -21,7 +21,7 @@ export default function Skills() {
         <Card>React</Card>
         <Card>Angular</Card>
         <Card>Spring Boot</Card>
-        <Card>Hiberate</Card>
+        <Card>Hibernate</Card>
         <Card>Laravel</Card>
         <Card>Django</Card>
         <Card>Tailwind</Card>
@@ -32,7 +32,6 @@ export default function Skills() {
         <Card>AWS</Card>
         <Card>Google Cloud</Card>
         <Card>Docker</Card>
-        <Card>Kubernates</Card>
         <Card>Unity Engine</Card>
         <Card>Godot Engine</Card>
       </p>

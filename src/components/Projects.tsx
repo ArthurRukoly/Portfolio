@@ -19,7 +19,7 @@ export default function Projects() {
         in Udemy's courses
       </ProjectCard>
       <ProjectCard link={LINKS.planner} title={"Planning System 📅"}>
-        asd
+        Application that will help you to manage time properly!
       </ProjectCard>
       <ProjectCard link={LINKS.gourmetGamble} title={"Gourmet Gamble 🍔"}>
         The idea of project is to help user to choose a dish to make according
