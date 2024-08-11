@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import ProjectYoutube from "./pages/ProjectYoutube";
 import GourmetGamble from "./pages/GourmetGamble";
@@ -7,7 +7,7 @@ import Planner from "./pages/Planner";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<MainPage />}></Route>
         <Route path="youtube-section-tracker" element={<ProjectYoutube />} />
@@ -15,7 +15,7 @@ function App() {
         <Route path="min-max" element={<Reversi />} />
         <Route path="planning-system" element={<Planner />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
