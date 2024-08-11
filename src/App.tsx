@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import ProjectYoutube from "./pages/ProjectYoutube";
 import GourmetGamble from "./pages/GourmetGamble";
